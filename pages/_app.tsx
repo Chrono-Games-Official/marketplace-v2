@@ -43,7 +43,7 @@ import { Chain, mainnet } from 'viem/chains'
 
 //CONFIGURABLE: Use nextjs to load your own custom font: https://nextjs.org/docs/basic-features/font-optimization
 const inter = Inter({
-  subsets: ['latin'],
+  subsets: ['cyrillic'],
 })
 
 export const NORMALIZE_ROYALTIES = process.env.NEXT_PUBLIC_NORMALIZE_ROYALTIES
@@ -85,8 +85,8 @@ const queryClient = new QueryClient()
 const reservoirKitThemeOverrides = {
   headlineFont: inter.style.fontFamily,
   font: inter.style.fontFamily,
-  primaryColor: '#6E56CB',
-  primaryHoverColor: '#644fc1',
+  primaryColor: '#211c32',
+  primaryHoverColor: '#1e9f5f',
 }
 
 function AppWrapper(props: AppProps & { baseUrl: string }) {

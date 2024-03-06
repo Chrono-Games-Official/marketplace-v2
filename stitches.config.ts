@@ -239,7 +239,38 @@ export const globalReset = globalCss(reset)
 
 export const darkTheme = createTheme({
   colors: {
-    ...crimsonDark,
+    // Dark Background Color
+    bg: '#211c32',
+
+    // Primary Color (Accent)
+    primary1: '#f6ba53',
+    primary2: '#f5b241',
+    primary3: '#f3a930',
+    primary4: '#f0a01f',
+    primary5: '#ee980e',
+    primary6: '#eb8f00',
+    primary7: '#d67f00',
+    primary8: '#c17000',
+    primary9: '#ac6100',
+    primary10: '#975200',
+    primary11: '#824300',
+    primary12: '#6d3400',
+
+    // Grays
+    gray1: '#211c32',
+    gray2: '#2a2539',
+    gray3: '#332d41',
+    gray4: '#3c3548',
+    gray5: '#453e50',
+    gray6: '#4e4758',
+    gray7: '#57505f',
+    gray8: '#605a67',
+    gray9: '#69646f',
+    gray10: '#726e77',
+    gray11: '#7b787e',
+    gray12: '#848286',
+
+    // Other colors
     ...violetDark,
     ...violetDarkA,
     ...slateDark,
@@ -250,56 +281,14 @@ export const darkTheme = createTheme({
     ...blackA,
 
     //Aliases
-
-    //Primary
-    primary1: '$iris1',
-    primary2: '$iris2',
-    primary3: '$iris3',
-    primary4: '$iris4',
-    primary5: '$iris5',
-    primary6: '$iris6',
-    primary7: '$iris7',
-    primary8: '$iris8',
-    primary9: '$iris9',
-    primary10: '$iris10',
-    primary11: '$iris11',
-    primary12: '$iris12',
-
-    //Secondary
-    secondary1: '$violetA1',
-    secondary2: '$violetA2',
-    secondary3: '$violetA3',
-    secondary4: '$violetA4',
-    secondary5: '$violetA5',
-    secondary6: '$violetA6',
-    secondary7: '$violetA7',
-    secondary8: '$violetA8',
-    secondary9: '$violetA9',
-    secondary10: '$violetA10',
-    secondary11: '$violetA11',
-    secondary12: '$violetA12',
-
-    //Gray
-    gray1: '$slate1',
-    gray2: '$slate2',
-    gray3: '$slate3',
-    gray4: '$slate4',
-    gray5: '$slate5',
-    gray6: '$slate6',
-    gray7: '$slate7',
-    gray8: '$slate8',
-    gray9: '$slate9',
-    gray10: '$slate10',
-    gray11: '$slate11',
-    gray12: '$slate12',
-
-    accent: '#7000FF',
+    primary: '$primary1',
+    secondary: '$violetA1',
 
     neutralBgSubtle: '$gray3',
     neutralBg: '$gray1',
 
     panelBg: '$gray3',
-    panelBorder: '$slate7',
+    panelBorder: '$gray7',
     panelShadow: 'transparent',
     dropdownBg: '$gray3',
     sidebarOverlay: 'black',
